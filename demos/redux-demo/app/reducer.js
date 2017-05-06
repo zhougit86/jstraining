@@ -3,7 +3,7 @@ function reducer(state = {
     name: '访问者'
 }, action) {
     switch (action.type) {
-        case 'change':
+        case 'change1':
             return {
                 name: action.payload,
                 text: '你好，' + action.payload

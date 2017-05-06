@@ -13,7 +13,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     onChange: (e) => dispatch({
-      type: 'change',
+      type: 'change1',
       payload: e.target.value
     })
   }
